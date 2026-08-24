@@ -60,23 +60,22 @@ The design focuses on clean layouts, smooth interactions and an engaging user ex
 ### Dashboard & Todo Manager
 
 <p align="center">
-  <img src="screenshots/dashboard.png" width="430" />
-  <img src="screenshots/todos.png" width="430" />
+  <img src="screenshots/dashboard.png" width="550" />
+  <img src="screenshots/todos.png" width="550" />
 </p>
 
 ### Birthday Manager & Resource Vault
 
 <p align="center">
-  <img src="screenshots/birthdays.png" width="430" />
-  <img src="screenshots/resources.png" width="430" />
+  <img src="screenshots/birthdays.png" width="550" />
+  <img src="screenshots/resources.png" width="550" />
 </p>
 
 ### Smart Bag Checklist
 
 <p align="center">
-  <img src="screenshots/bag.png" width="500" />
+  <img src="screenshots/pag.png" width="550" />
 </p>
-
 ## 🛠️ Tech Stack
 
 ### Frontend
