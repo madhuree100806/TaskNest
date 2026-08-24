@@ -74,7 +74,7 @@ The design focuses on clean layouts, smooth interactions and an engaging user ex
 ### Smart Bag Checklist
 
 <p align="center">
-  <img src="screenshots/pag.png" width="550" />
+  <img src="screenshots/bag.png" width="550" />
 </p>
 ## 🛠️ Tech Stack
 
