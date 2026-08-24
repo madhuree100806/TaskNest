@@ -1,0 +1,124 @@
+.scroll-stack-scroller {
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+
+  overflow-y: auto;
+  overflow-x: visible;
+
+  overscroll-behavior: contain;
+
+  -webkit-overflow-scrolling: touch;
+
+  scroll-behavior: smooth;
+
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+
+  will-change: scroll-position;
+}
+
+
+/* =========================
+   SCROLL STACK INNER
+========================= */
+
+.scroll-stack-inner {
+  padding: 40px 0 120px;
+
+  min-height: 100vh;
+
+  width: 100%;
+}
+
+
+/* =========================
+   CARD WRAPPER
+========================= */
+
+.scroll-stack-card-wrapper {
+  position: relative;
+
+  width: 100%;
+
+  display: block;
+}
+
+
+/* =========================
+   SCROLL STACK CARD
+========================= */
+
+.scroll-stack-card {
+  transform-origin: top center;
+
+  will-change: transform, filter;
+
+  backface-visibility: hidden;
+
+  transform-style: preserve-3d;
+
+  box-shadow:
+    0 0 30px rgba(0, 0, 0, 0.1);
+
+  /*
+    Horizontal full-width resource.
+    One resource per row.
+  */
+  height: 180px;
+
+  width: 100%;
+
+  margin: 20px 0;
+
+  padding: 0;
+
+  border-radius: 24px;
+
+  box-sizing: border-box;
+
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+
+  position: relative;
+}
+
+
+/* =========================
+   END
+========================= */
+
+.scroll-stack-end {
+  width: 100%;
+  height: 1px;
+}
+
+
+/* =========================
+   RESOURCE SCROLL AREA
+========================= */
+
+.resource-scroll-wrapper {
+  width: 100%;
+  height: auto;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+  .scroll-stack-inner {
+    padding: 25px 0 80px;
+  }
+
+  .scroll-stack-card {
+    height: 180px;
+
+    margin: 15px 0;
+
+    border-radius: 20px;
+  }
+}

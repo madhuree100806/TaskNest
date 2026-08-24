@@ -1,0 +1,67 @@
+/* ==========================================================================
+   TaskNest — Global Theme
+   Palette taken from React Bits (reactbits.dev): near-black background
+   with a signature electric-violet accent used across their component demos.
+   ========================================================================== */
+
+:root {
+  /* Core palette */
+  --bg: #060010;
+  --bg-elevated: #0d0d17;
+  --surface: #120f17;
+  --surface-alt: #17141f;
+  --border: #2f293a;
+
+  --accent: #5227ff;
+  --accent-soft: #7c5cff;
+  --accent-glow: 130, 39, 255; /* rgb triplet for rgba() use */
+  --accent-light: #b19eef;
+
+  --success: #22c55e;
+  --danger: #ef4444;
+  --danger-soft: #fca5a5;
+
+  --text: #ffffff;
+  --text-muted: #a9a9b3;
+  --text-faint: #71717a;
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+
+  --shadow-glow: 0 0 40px rgba(var(--accent-glow), 0.25);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--text);
+}
+
+/* Scrollbar theming to match palette */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
