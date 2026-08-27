@@ -168,11 +168,8 @@ Create a `.env` file inside the `backend` folder:
 
 ```env
 PORT=5000
-DB_USER=your_database_user
-DB_HOST=localhost
-DB_NAME=tasknest
-DB_PASSWORD=your_database_password
-DB_PORT=5432
+
+DATABASE_URL=postgresql://postgres.mnmnkpkfftdjwcomvvne:[Your SupaBase DB Pswrd]@aws-0-ap-northeast-2.pooler.supabase.com:5432/postgres
 ```
 
 **Never commit your `.env` file or database credentials to GitHub.**
