@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Folder from "../components/ui/Folder/Folder";
 import "../styles/ResourcePage.css";
 
-const API_URL = "http://localhost:5000/api";
+const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
 
 const DEFAULT_FOLDERS = [
   "DSA",
